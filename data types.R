@@ -1,8 +1,9 @@
 library(readxl)
 
-friends <- read_excel("data/friends.xlsx")
-View(friends)
+file_url <- "https://raw.githubusercontent.com/ShamimtheAnalyst/YouTube-Repo/refs/heads/main/friends.csv"
+friends <- read.csv(file_url)
 
+View(friends)
 str(friends)
 
 
@@ -28,6 +29,7 @@ class(friends$Old)
 
 
 str(friends)
+
 
 
 
