@@ -1,5 +1,3 @@
-library(readxl)
-
 file_url <- "https://raw.githubusercontent.com/ShamimtheAnalyst/YouTube-Repo/refs/heads/main/friends.csv"
 friends <- read.csv(file_url)
 
@@ -29,6 +27,7 @@ class(friends$Old)
 
 
 str(friends)
+
 
 
 
